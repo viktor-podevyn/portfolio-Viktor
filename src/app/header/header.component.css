@@ -19,4 +19,27 @@ header ul li:last-child {
   padding-right: 0;
 }
 
+header ul li a {
+  color: #8E8D8A;
+  font-weight: 500;
+  position: relative;
+}
+
+header ul li a:hover {
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+
+header ul li a:hover::after, header ul li a.is-active::after {
+  content: "";
+  background: #E85A4F;
+  height: 9px;
+  position: absolute;
+  left: 3px;
+  z-index: -1;
+  bottom: 0;
+  right: -3px;
+}
+
 /*# sourceMappingURL=header.component.css.map */

@@ -1,3 +1,10 @@
-
+.p-profile {
+  background: url(/assets/img/IMG-03201.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
 
 /*# sourceMappingURL=home.component.css.map */
