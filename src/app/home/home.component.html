@@ -1,3 +1,7 @@
+
+
+
+
 <section>
   <div class="container">
     <div class="row">
@@ -5,8 +9,87 @@
         <div class="p-profile"></div>
       </div>
       <div class="col-sm-7">
+        <span class="p-tag">Junior at BeCode.org</span>
+        <h1 class="grootNaam mt-4 mb-4">Viktor Podevyn</h1>
+        <p class="p-des mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet dignissimos dolores ducimus, earum esse, eum ipsam nemo nisi officiis perspiciatis quae quidem rerum sapiente similique sint, tempore voluptas voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet dignissimos dolores ducimus, earum esse, eum ipsam nemo nisi officiis perspiciatis quae quidem rerum sapiente similique sint, tempore voluptas voluptate!</p>
+        <a class="p-readmore" href="#">Read More <img src="assets/img/right-arrow.png" alt="Arrow" width="20" class="ml-2"></a>
 
       </div>
     </div>
   </div>
 </section>
+
+
+<body>
+
+<div class="app">
+
+  <div id="bound-two" class="scroll-bound">
+    <div class="content">
+      <video width="600" muted preload>
+        <source src="assets/img/DroneFooty.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  const registerVideo = (bound, video) => {
+    bound = document.querySelector(bound);
+    video = document.querySelector(video);
+    const scrollVideo = ()=>{
+      if(video.duration) {
+        const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
+        const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
+        const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
+
+        video.currentTime = video.duration * percentScrolled;
+      }
+      requestAnimationFrame(scrollVideo);
+    }
+    requestAnimationFrame(scrollVideo);
+  }
+
+  registerVideo("#bound-two", "#bound-two video")
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
