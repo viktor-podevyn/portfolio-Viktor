@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de59f359-20b8-463b-afa4-6697598493f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/DroneFooty.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/right-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +74,7 @@
       <workItem from="1620726360287" duration="5068000" />
       <workItem from="1620822518960" duration="4360000" />
       <workItem from="1620939332695" duration="14590000" />
-      <workItem from="1621002077334" duration="677000" />
+      <workItem from="1621002077334" duration="1489000" />
     </task>
     <servers />
   </component>
